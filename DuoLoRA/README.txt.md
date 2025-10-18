@@ -37,7 +37,7 @@ bash train_rank_layer_prior_cycle_rev_c_s.sh
 - Generate images using a custom prompt
 
 ```python
-python inference_wo_gradio.py --ziplora_name_or_path $MERGED_LORA_PATH --prompt "a sbu dog in szn style running" --output_dir $OUT_DIR
+python inference_composite.py --ziplora_name_or_path $MERGED_LORA_PATH --prompt "a sbu dog in szn style running" --output_dir $OUT_DIR
 ```
 
 ---
